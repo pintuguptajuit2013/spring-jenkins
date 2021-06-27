@@ -17,6 +17,7 @@ public class SpringJenkinsApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application Just Executed !!");
+		logger.info("Application Just Executed Test for Pipeline !!");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
